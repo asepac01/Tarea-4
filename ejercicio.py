@@ -18,8 +18,12 @@ class For:
         # for i in range(2, 10):
         #     print("i: {}".format(i))
         
-        print("")
-        for i in range(4, 10, 2):
+        # print("")
+        # for i in range(4, 10, 2):
+        #     print("i: {}".format(i), end="  ")
+
+        print("\n")
+        for i in range(12, 3, -3):
             print("i: {}".format(i), end="  ")
 
 
