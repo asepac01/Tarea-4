@@ -51,10 +51,15 @@ class For:
         # for dato in ['H', 'o', 'l', 'a', 'que', 'tal']:
         #     print("Dato:", dato)
 
-        print("")
-        print("Diccionario de notas.")
-        for key, value in profesor.items():
-            print(key + ":" + str(value), end="  ")
+        # print("")
+        # print("Diccionario de notas.")
+        # for key, value in profesor.items():
+        #     print(key + ":" + str(value), end="  ")
+        
+        print("\n")
+        for estudiante in lista_estudiantes:
+            for llave, valor in estudiante.items():
+                print(llave + ":" + str(valor), end="  ")
 
 
 obj_for = For()
