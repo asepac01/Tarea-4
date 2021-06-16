@@ -43,8 +43,12 @@ class For:
         # for i, dato in enumerate(numeros):
         #     print("For:", i, dato)
         
+        # print("")
+        # for dato in numeros:
+        #     print("Dato:", dato)
+        
         print("")
-        for dato in numeros:
+        for dato in ['H', 'o', 'l', 'a', 'que', 'tal']:
             print("Dato:", dato)
 
 
