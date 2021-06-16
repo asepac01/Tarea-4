@@ -11,7 +11,11 @@ class For:
         lista_notas = [(30, 40), [20, 40] ,(50, 40)]
         lista_estudiantes = [{"nombre": "Erick", "final": 70}, {"nombre": "Yady", "final": 60}, {"nombre": "Danny", "final": 90}]
 
-        for i in range(5):
+        # for i in range(5):
+        #     print("i: {}".format(i))
+        
+        print("")
+        for i in range(2, 10):
             print("i: {}".format(i))
 
 
