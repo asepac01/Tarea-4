@@ -39,9 +39,13 @@ class For:
         # for i in range(longitud-1, -1, -1):
         #     print("i:{}".format(i), dato[i], end="  ")
 
+        # print("")
+        # for i, dato in enumerate(numeros):
+        #     print("For:", i, dato)
+        
         print("")
-        for i, dato in enumerate(numeros):
-            print("For:", i, dato)
+        for dato in numeros:
+            print("Dato:", dato)
 
 
 obj_for = For()
