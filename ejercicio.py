@@ -47,9 +47,14 @@ class For:
         # for dato in numeros:
         #     print("Dato:", dato)
         
+        # print("")
+        # for dato in ['H', 'o', 'l', 'a', 'que', 'tal']:
+        #     print("Dato:", dato)
+
         print("")
-        for dato in ['H', 'o', 'l', 'a', 'que', 'tal']:
-            print("Dato:", dato)
+        print("Diccionario de notas.")
+        for key, value in profesor.items():
+            print(key + ":" + str(value), end="  ")
 
 
 obj_for = For()
