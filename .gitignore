@@ -1,0 +1,8 @@
+# Las carpetas contienen "/".
+# los archivos NO.
+
+# Esto es una carpeta.
+images/
+
+# Esto es un archivo.
+no_va.py
