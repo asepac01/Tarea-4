@@ -26,18 +26,22 @@ class For:
         # for i in range(12, 3, -3):
         #     print("i: {}".format(i), end="  ")
 
-        print("\n")
-        longitud = len(dato)
-        print(dato[0])
-        print(dato[1])
-        print(dato[2])
-        j = 0
-        while j < longitud:
-            print("j:{}".format(j), dato[j], end="  ")
-            j += 1
+        # print("\n")
+        # longitud = len(dato)
+        # print(dato[0])
+        # print(dato[1])
+        # print(dato[2])
+        # j = 0
+        # while j < longitud:
+        #     print("j:{}".format(j), dato[j], end="  ")
+        #     j += 1
+        # print("")
+        # for i in range(longitud-1, -1, -1):
+        #     print("i:{}".format(i), dato[i], end="  ")
+
         print("")
-        for i in range(longitud-1, -1, -1):
-            print("i:{}".format(i), dato[i], end="  ")
+        for i, dato in enumerate(numeros):
+            print("For:", i, dato)
 
 
 obj_for = For()
